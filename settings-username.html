@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style4.css">
+<link rel="stylesheet" href="css/abhii-5.css">
+<link rel="stylesheet" href="css/style3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+.dwid#sidebar-wrapperr {
+    margin-right: -250px;
+    right: 0;
+    width: 250px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    height: 100%;
+    top: 0;
+    overflow-y: auto;
+    z-index: 999999;
+    transition: all 0.5s ease-in 0s;
+    -webkit-transition: all 0.5s ease-in 0s;
+    -moz-transition: all 0.5s ease-in 0s;
+    -ms-transition: all 0.5s ease-in 0s;
+    -o-transition: all 0.5s ease-in 0s;
+}
+
+  .dwid .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dwid.sidebar-nav li {
+    line-height: 50px;
+    text-indent: 20px;
+  }
+
+  .shot .sidebar-nav li a {
+    color: #999999;
+    display: block;
+    text-decoration: none;
+  }
+
+  .shot .sidebar-nav li a:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    text-decoration: none;
+  }
+
+  .shot .sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+
+  .dwid .sidebar-nav > .sidebar-brand {
+    height: 55px;
+    line-height: 55px;
+    font-size: 18px;
+  }
+
+  .shot .sidebar-nav > .sidebar-brand a {
+    color: #999999;
+  }
+
+  .shot .sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+
+  .dwid #menu-toggle {
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+  }
+
+ .dwid#sidebar-wrapperr.active {
+    right: 250px;
+    width: 250px;
+    transition: all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+  }
+
+  .dwid .toggle {
+    margin: 5px 5px 0 0;
+	width: 100%;
+  }
+  
+  .ntt{
+  padding-left: 5px!important;
+    color: #555557!important;
+  }
+  
+  .yad-1{
+  color: red!important;
+  font-size: 12px!important;
+  width: 116px!important;
+  }
+  
+  .yad-2{
+  color: red!important;
+  font-size: 12px!important;
+  }
+  
+  .ekt .fa{
+  color: #506475;
+    font-size: 30px;
+    position: absolute;
+    left: 32px;
+    top: 15px;
+  }
+  
+  .mamt .dropdown-menu {
+    top: 27px!important;
+    left: -85px!important;
+    right: 0!important;
+}
+  
+  .naren .dropdown-menu {
+    top: 29px!important;
+    left: -152px!important;
+}
+
+
+
+.yashi #navbar {
+    position: fixed;
+    width: 100%;
+    left: 300px;
+    bottom: 107px;
+}
+
+.yashi .fa {
+    background: #AF1B1B;
+    padding: 9px 12px 9px 12px;
+    color: white;
+    border-radius: 25px;
+    font-size: 22px;
+    box-shadow: 0px 0px 1px 2px #756969;
+}
+
+.nayan{
+background: blue;
+}
+
+.notice {
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+            box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+}
+.notice-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+.notice-lg {
+    padding: 35px;
+    font-size: large;
+}
+.notice-success {
+    border-color: #80D651;
+}
+.notice-success>strong {
+    color: #80D651;
+}
+.notice-info {
+    border-color: #45ABCD;
+}
+.notice-info>strong {
+    color: #45ABCD;
+}
+.notice-warning {
+    border-color: #FEAF20;
+}
+.notice-warning>strong {
+    color: #FEAF20;
+}
+.notice-danger {
+    border-color: #d73814;
+}
+.notice-danger>strong {
+    color: #d73814;
+}
+
+.annu{
+    padding-top: 15px;
+	margin: 0 15px 0 15px;
+}
+
+.annu .success{
+padding-left: 75px;
+}
+
+
+
+
+
+
+  </style>
+</head>
+
+<body>
+<div id="sidebar-wrapperr" class="dwid">
+  <div class="sidebar-nav ">
+    <div><a id="menu-close" href="#" class=" pull-left toggle ntt"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+	
+	<div class="row">
+	<div class="col-xs-12">
+	<div class="annu">
+<div class="notice notice-success">
+        <div><strong>Notice</strong> <span class="success"> 19/12/17</span></div>
+    	<div><span>notice-success</span></div>
+    </div>
+   
+    
+     <div class="notice notice-success">
+         <div><strong>Notice</strong> <span class="success"> 19/12/17</span></div>
+    	<div><span>notice-success</span></div>
+    </div>
+   
+    
+     <div class="notice notice-success">
+         <div><strong>Notice</strong> <span class="success"> 19/12/17</span></div>
+    	<div><span>notice-success</span></div>
+    </div>
+   
+    <div class="notice notice-success">
+         <div><strong>Notice</strong> <span class="success"> 19/12/17</span></div>
+    	<div><span>notice-success</span></div>
+    </div>
+	
+	 <div class="notice notice-success">
+         <div><strong>Notice</strong> <span class="success"> 19/12/17</span></div>
+    	<div><span>notice-success</span></div>
+    </div>
+	
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<section class="top-head">
+  <div class="container">
+    <div class="row">
+      <div id="wrapper">
+        <div class="overlay"></div>
+        
+        <!-- Sidebar -->
+        <nav class="navbar navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+          <div class="sidebar-header header-cover"> 
+            <!-- Top bar --> 
+            <!-- <div class="top-bar"></div>--> 
+            <!-- Sidebar toggle button -->
+            <button type="button" class="sidebar-toggle" style="display: none;"> <i class="icon-material-sidebar-arrow"></i> </button>
+            <!-- Sidebar brand image -->
+            <div class="sidebar-image"> <img src="images/atom_profile.jpg"> </div>
+            <!-- Sidebar brand name --> 
+            <a class="sidebar-brand "> AFTAB AHMED 
+            <!--<b class="caret pull-right"></b>--> 
+            </a> </div>
+          <ul class="nav sidebar-nav">
+            <li class="active"> <a href="#">
+              <label> <img src="images/dash.png"></label>
+              Dashboard </a> </li>
+           
+            <li> <a href="#">
+              <label> <i class="fa fa-briefcase" aria-hidden="true"></i></label>
+              About</a> </li>
+            <li> <a href="#">
+              <label> <i class="fa fa-sliders" aria-hidden="true"></i></label>
+              Setting </a> </li>
+            <li> <a href="#">
+              <label> <i class="fa fa-user" aria-hidden="true"></i></label>
+              Profile </a> </li>
+            <li> <a href="#">
+              <label> <i class="fa fa-sign-out" aria-hidden="true"></i></label>
+              Logout </a> </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  
+  <!-- /#sidebar-wrapper --> 
+  
+  <!-- Page Content -->
+ <div id="page-content-wrapper">
+    <div class="flt-head">
+	<div class="row">
+	 <div class="col-xs-2 butt">
+	<button type="button" class="hamburger is-closed" data-toggle="offcanvas"> <span class="hamb-top"></span> <span class="hamb-middle"></span> <span class="hamb-bottom"></span> </button>
+      </div>
+	  <div class="col-xs-8 vidur">
+	  <p class="mzr"><input type="text" placeholder="Search.."></p>
+	  </div>
+	   <div class="col-xs-2 noti">
+           <i id="menu-toggle" class="fa fa-bell" aria-hidden="true"></i>
+	  </div>
+    </div>
+    <div class="pull-right bckbtn dis-bck-index"> <a href="index.html"><img src="images/back.png"></a> </div>
+  </div>
+  </div>
+  <!-- /#page-content-wrapper --> 
+  
+</section>
+
+
+
+<div class="abhii">
+
+<div class="abhi-text-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-xs-3 col-sm-3">
+        <div class="foot-div-in">
+		<a href="" class="ekt"><i class="fa fa-briefcase" aria-hidden="true"></i><br><p>Jobs <span>6</span> </p></a></div> 
+      </div>
+	   
+	   <div class="col-md-3 col-xs-3 col-sm-3">
+        <div class="foot-div-in">
+			<a href="" class="ekt"><i class="fa fa-envelope" aria-hidden="true"></i><br><p>Messages</p></a></div>  
+      </div>
+       
+	  <div class="col-md-3 col-xs-3 col-sm-3">
+        <div class="foot-div-in">
+		<a href="" class="ekt"><i class="fa fa-user" aria-hidden="true"></i> <br><p>Profile</p></a></div>  
+      </div>
+	  
+	  <div class="col-md-3 col-xs-3 col-sm-3">
+        <div class="foot-div-in ois">
+		<a href="" class="ekt"><i class="fa fa-cog" aria-hidden="true"></i> <br><p>Settings</p></a></div>  
+        </div>   
+        </div>   
+        </div>   
+        </div>   
+		
+		
+<div class="abhii-1">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h3>Account Settings</h3>
+<ul>
+<li><a href"#">Username</a></li>
+<li><a href"#">Change Password</a></li>
+<li><a href"#">Manage Emails</a></li>
+<li><a href"#">Manage Mobile Numbers</a></li>
+<li><a href"#">Edit Profile</a></li></ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="abhii-2">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-12">
+<h4>Username</h4>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="abb-1">
+<div class="col-xs-6 col-sm-6">
+<p>willy88</p>
+</div>
+<div class="col-xs-6 col-sm-6">
+<div class="abb-2 pull-right">
+<i class="fa fa-pencil" aria-hidden="true"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<footer class="foot-head abhi-text-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-xs-2 col-sm-2">
+        <div class="foot-div-in">
+		<a href="" class="ekt"><i class="fa fa-search" aria-hidden="true"></i></a></div> 
+      </div>
+	   
+	   <div class="col-md-2 col-xs-2 col-sm-2">
+        <div class="foot-div-in">
+		<img src="images/doctor.png"> </div>  
+      </div>
+      
+      <div class="col-md-3 col-xs-4 col-sm-3">
+        <div class="foot-div-in-3"> 
+         <img src="images/Screenshot_33.png" class="noti-cen">
+		 </div>
+      </div>
+	  
+	  <div class="col-md-2 col-xs-2 col-sm-2">
+        <div class="foot-div-in">
+		<img src="images/Path_210.png"> </div>  
+      </div>
+	  
+	  <div class="col-md-2 col-xs-2 col-sm-2">
+        <div class="foot-div-in">
+		<img src="images/world.png" data-toggle="modal" data-target="#myModal"></div>  
+           
+        <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+         	<form style="color:#090909;font-size:17px;">
+				<div class="form-check" style="float: left;width: 40%;">
+					<label>
+						<input type="checkbox" name="check" checked> <span class="label-text">English</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> <span class="label-text">Traditional Chinese (繁體中文)</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> <span class="label-text">Simplified Chinese (简体中文)</span>
+					</label>
+				</div>
+			</form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+		   
+      </div>
+      
+      
+    </div>
+  </div>
+  </div>
+</footer>
+
+
+<!-- /#wrapper --> 
+<script src="js/jquery-3.3.1.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script>
+ $("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapperr").toggleClass("active");
+  });
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapperr").toggleClass("active");
+  });
+</script>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+</body>
+</html>

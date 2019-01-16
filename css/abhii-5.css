@@ -1,0 +1,171 @@
+
+.abhii-1 {
+    margin: 10px 0 0 20px;
+}
+
+
+.abhii-1 a {
+   	
+	position: relative;
+    top: 3px;
+    font-size: 18px;
+    color: #5357e6;
+}
+.abhii-1 li {
+   padding-top: 10px;
+}   
+
+.abhii-1 h3 {
+    color: #df3d3d;
+}
+
+.abhii-2 {
+    margin: 15px 0 0 20px;
+}
+
+.abhii-3 {
+    padding-top: 15px;
+}
+
+.abhii-5 {
+    padding-top: 20px;
+}
+
+.abhii-2 span {
+    padding-left: 25px;
+}
+
+.abhii-2 h4 {
+    color: #6222c3;
+    font-weight: 600;
+
+}
+
+.abhii-3 {
+    border-bottom: 1px solid;
+}	
+
+.abhii-3 p {
+    font-weight: bold;
+}
+
+.abhii-5 {
+    border-bottom: 1px solid;
+    line-height: 35px;
+}
+
+.abhii-7 {
+    margin: 20px 0 0 20px;
+}
+
+.xd {
+    margin: 0px 0 0 20px!important;
+}
+
+.abhii-7 button {
+    font-size: 15px;
+    color: #fff;
+    background: #eb5469;
+	border-radius: 4px;
+}
+
+.abhii-9 .mx {
+	border: none;
+    padding-left: 35px;
+    border-bottom: 1px solid;
+    padding-top: 15px;
+}
+
+.abhii-9 {
+    padding-top: 10px;
+}
+
+.abhii .abhi-text-3 {
+    margin-top: 58px;
+}
+
+.abhii .ekt .fa {
+    color: #ffffffc7;
+    font-size: 30px;
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+	top:0;
+}
+
+.abhii .ois .ekt .fa {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+	top:0;
+}
+
+.abhii .ois .ekt p {
+    padding-left: 10px;
+    text-align: center;
+	color: #fff;
+}
+
+.abhii .ekt p {
+    padding-left: 10px;
+    text-align: center;
+	color: #ffffffc7;
+}
+.abhii .ekt p span {
+    background-color: wheat;
+    border-radius: 20px;
+    color: black;
+    font-size: 11px;
+    height: 20px;
+    line-height: 18px;
+    position: absolute;
+	top: 37px;
+    text-align: center;
+    width: 20px;
+    right: 5px;
+}
+
+.abhii .abhi-text-3 {
+    background-color: #e10a22c9;
+    padding-top: 13px;
+    height: 85px;
+}
+
+.abhii .abb-1 {
+    padding-top: 10px;
+}
+
+.abhii .abb-1 p {
+    font-size: 15px;
+}
+
+.abhii .abb-2 i {
+    background: #9a999947;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 5px;
+}
+
+.abhii {
+ padding-bottom:75px;
+}
+
+.abhi-text-3 .foot-div-in {
+    margin-top: 17px;
+    padding: 0 0 0 0!important;
+}
+
+@media screen and (max-width: 767px) {
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: none;
+}
+
+}

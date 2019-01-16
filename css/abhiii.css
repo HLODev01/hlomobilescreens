@@ -1,0 +1,361 @@
+.abhi-6 .icon i {
+    font-size: 20px;
+}
+
+
+.abhi-6 h4 {
+    text-align: center;
+    color: #e6232b;
+    padding-left: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+.abhi-6 .icon {
+    color: #e6232b;
+    font-size: 18px;
+    margin-left: -30px;
+    margin-top: 14px;
+}
+
+.abhi-6 .sicon {
+    color: #e6232b;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+.abhi-6-1 .bckg {
+    background: url(../images/background.jpg);
+    height: 200px;
+    margin-top: 5px;
+}
+
+.marg {
+  padding: 0;
+}
+
+.abhi-6-1 .sidebar-image {
+    padding: 133px 0 0 0;
+	text-align: center;
+	margin-left: -15px;
+}
+
+
+.abhi-6-1 .loc {
+    float: right;
+    margin-top: -36px;
+    margin-right: 50px;
+    font-size: 17px;
+}
+
+.abhi-6-1 .loc i {
+    COLOR: #1d9d74;
+	font-size: 21px;
+}
+
+.abhi-6-1 .loc h6 {
+   position: relative;
+    top: -33px;
+    left: 18px;
+    background: #1d9d74;
+    height: 22px;
+    width: 70px;
+    color: #fff;
+}
+
+.abhi-6-1 .loc h6 span {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    letter-spacing: 1px;
+}
+
+.abhi-6-2 .heading-1 {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.abhi-6-2 .heading-1 h3 {
+    letter-spacing: 1px;
+	color: #e6232b;
+}
+
+.abhi-6-2 .heading-1 p {
+    letter-spacing: 1px;
+	color:grey;
+}
+
+.abhi-6-3 .topic-1 {
+	text-align:center;
+	margin-top: 14px;
+}
+
+.abhi-6-3 .topic-1 .cont-1 a span {
+   letter-spacing: 1px;
+    position: relative;
+    top: 3px;
+    font-size: 24px;
+}
+
+.abhi-6-3 .topic-1 .cont-1 a {
+   
+    
+    color: #e6232b;
+    font-weight: 600;
+    
+}
+
+.abhi-6-3 .topic-1 .cont {
+	background: #e6232b2e;
+    height: 38px;
+    width: 160px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.abhi-6-3 .topic-1 .cont-1 {
+	 margin-left: 20px;
+    background: #e6232b2e;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+
+.abhi-6-3 .topic-1 .cont a span {
+    position: relative;
+    top: 3px;
+    font-size: 24px;
+}
+
+.abhi-6-3 .topic-1 .cont a {
+   
+    
+    color: #e6232b;
+    font-weight: 600;
+	
+}
+
+.abhi-6-4 .topic-2 p {
+    padding-left: 35px;
+	position: relative;
+    top: -5px;
+    color: black;
+}
+
+.abhi-6-4 .topic-2 h4 {
+    padding-left: 19px;
+    color: #e6232b;
+	font-weight: 600;
+}
+
+.star-1{
+color: #e6232b!important;
+    font-size: 15px!important;
+    margin-left: -4px!important;	
+}
+
+.geek{
+	margin-left: 17px;
+	}
+	
+.topic-1.toic-2{
+margin-top:0px!important;	
+}
+
+.ence{
+	font-weight: normal;
+}
+
+.yeas{
+	font-weight: 500;
+    font-size: 15px;
+}
+
+.histo{
+font-weight:300;	
+}
+
+
+
+
+.abhi-text .contact-profile {
+    width: 100%;
+    height: 77px;
+    background: #f5f5f5;
+    color: #be2126;
+	    padding-top: 1px;
+}
+
+.marg {
+    padding: 0;
+}
+
+.abhi-text .contact-profile .sidebar-image img {
+   
+    height: 50px;
+    width: 50px;
+    
+}
+
+.abhi-text .contact-profile .arrow img {
+    height: 45px;
+ }
+
+.abhi-text .contact-profile .arrow {
+    padding-left: 8px;
+    margin-top: 17px;
+}
+
+.abhi-text .sidebar-image {
+   margin: -63px 0 0 18px;
+
+}
+
+.abhi-text .contact-profile i {
+        font-size: 40px;
+    padding-top: 25px;
+    padding-left: 7px;
+}
+
+.abhi-text .contact-profile p {
+   padding-left: 105px;
+    margin-top: -60px;
+    font-size: 25px;
+}
+.abhi-text .messages {
+   height: auto;
+    min-height: calc(100% - 93px);
+    max-height: calc(100% - 93px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+	    margin-bottom: 60px;
+}
+
+.abhi-text .messages ul {
+    list-style: none;
+	padding: 0;
+	    padding-top: 17px;
+}
+
+.abhi-text .messages ul li {
+    display: inline-block;
+    clear: both;
+    float: left;
+    margin: 0 15px 0 15px;
+    width: calc(100% - 25px);
+   font-size: 18px;
+}
+.abhi-text .messages ul li p {
+    display: inline-block;
+    border-radius: 8px;
+    line-height: 130%;
+    max-width: 100%;
+    padding: 10px 10px 0px 10px;
+	box-shadow: 0px 3px 0px 0px #808080ad;
+}
+
+.abhi-text .messages ul li.replies p {
+    color: #fff;
+    float: right;
+    background: #be2126;
+    font-size: 19px;
+    
+	
+}
+
+.abhi-text .messages ul li.sent p {
+    background: #e6eaea;
+	    color: black;
+   
+}
+
+
+.abhi-text .messages ul li p span {
+    float: right;
+    font-size: 15px;
+    padding-left: 30px;
+    color:grey;
+    padding-top: 4px;
+}
+
+.abhi-text .messages .sidebar-image {
+    margin: 0 0 -67px -72px;
+}
+
+.abhi-text .messages .sidebar-image img {
+    height: 40px;
+    width: 40px;
+}
+
+.abhi-text-1 .message-input {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.abhi-text-1 .deckan .fa {
+    font-size: 22px;
+    color: #e6232b;
+    position: relative;
+    top: 8px;
+}
+
+
+.abhi-text-1 .csk input {
+    border-radius: 15px;
+    border: 1px solid #e6232b;
+    width: 100%;
+    height: 35px;
+	padding-left: 10px;
+}
+
+
+
+.abhi-text-1 .wrap {
+    background: #E6EAEA;
+    border: 1px solid #e6232b;
+    text-align: center;
+    padding: 7px 6px 7px 6px;
+}
+
+.abhi-text .messages ul li .text p {
+	
+	position:relative;
+}
+
+.abhi-text .messages ul li .text p:after {
+	
+	content: "";
+    position: absolute;
+    border-top: 12px solid transparent;
+    border-right: 14px solid #cc262b;
+    border-bottom: 17px solid transparent;
+    transform: rotate(80deg);
+    top: 13px;
+    right: -6px;
+	
+}
+
+.abhi-text .messages ul li .text-1 p {
+	
+	position:relative;
+}
+
+.abhi-text .messages ul li .text-1 p:after {
+	
+	content: "";
+    position: absolute;
+    border-top: 13px solid transparent;
+    border-left: 17px solid #e6eaea;
+    border-bottom: 20px solid transparent;
+    transform: rotate(80deg);
+    top: 10px;
+    left: -12px;
+	
+}
+
+

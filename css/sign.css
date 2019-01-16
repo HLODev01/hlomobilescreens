@@ -1,0 +1,172 @@
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.abhi-1 .logo-section {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.abhi-1 .heading {
+    text-align: center;
+    color: #e6232b;
+}
+
+.box {
+	
+    padding-top:20px;
+}
+
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 25px;
+    padding-top: 0px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+	
+    font-size: 25px;
+    padding-top: 0px;
+	box-shadow: 1px 1px 0px 0px #cecccc;
+}
+
+
+.form-signin input[type="radio"] {
+    font-weight: normal;
+	 width: 30px;
+    height: 25px;
+	    top: -4px;
+}
+
+.box label span {
+        font-size: 19px;
+    color: #808080c4;
+    position: relative;
+    top: -6px;
+	    font-weight: 400;
+
+}
+
+.box a {
+    color: #808080c4;
+    font-size: 18px;
+    position: relative;
+    top: 6px;
+    right: 12px;
+    text-decoration: none;
+}
+
+.form-signin .form-signin-heading, .form-signin .radio {
+    margin-bottom: 10px;
+}
+
+.vl {
+    position: absolute;
+    left: 47%;
+    top: 188px;
+    width: 14px;
+    color:#808080c4;
+}
+
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.subtitle {
+	font-size: 23px;
+    margin-top: -6px;
+}
+
+.fancy span:before, .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 1px solid #808080c4;
+    top: 1px;
+    width: 142px;
+}
+
+.modal-body {
+    position: relative;
+    top: 25px;
+    right: 78px;
+    padding: 15px;
+    margin-top: -20px;
+	font-size:16px;
+}
+
+.fb {
+    background-color: #3B5998;
+    color: white;
+	width: 100%;
+	border-radius: 50px;
+	padding-right: 35px;
+    font-size: 21px;
+	
+    padding-top: 8px;
+}
+
+.fa {
+    float: left;
+    font-size: 20px!important;
+	position: relative;
+    left: 35px;
+        top: 6px;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+	width: 100%;
+    margin-top: 13px;
+    border-radius: 50px;
+	padding-right: 35px;
+    font-size: 21px;
+	
+    padding-top: 8px;
+}
+
+.col {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Don’t {
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.Don’t a {
+
+color:#808080c4;
+}
+
+.col button {
+   margin-top: 20px;
+   
+    border-radius: 50px;
+    background-color: #e6232b;
+    border: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+

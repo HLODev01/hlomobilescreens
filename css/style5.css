@@ -1,0 +1,124 @@
+.mam{
+	
+	padding-top:55px;
+	
+}
+
+
+
+.preety {
+        color: #e6232b;
+}
+
+
+
+.preety span {
+	
+            padding: 0 0 0 199px
+}
+
+
+
+.day {
+        color: black;
+	       padding: 0 0 0 31px;
+		    font-size: 18px;
+			    font-weight: 600;
+}
+
+
+
+.mon {
+    width: 100%;
+    color: black;
+    background: #f8ebef;
+    font-size: 16px;
+    margin: 0px 0px 2px 0px;
+    padding: 12px 0px 12px 15px;
+}
+.mon span{ 
+  
+        font-size: 16px;
+              padding: 0 0 0 151px;
+ }
+ 
+ 
+ .pre{  
+        padding: 0 0 0 15px;
+ }
+ 
+ 
+ 
+ 
+ .panel-default {
+       border: 1.5px solid pink;
+           
+
+}
+
+.panel-default>.panel-heading {
+            background-color:transparent!important;
+               border-color:notset!important;
+
+}
+
+.panel-heading {
+       
+		    padding: 20px 15px;
+}
+
+
+.panel.panel-default{
+            
+             width: 100%;
+			 
+}
+
+.panel-title{
+
+        color: red;
+}
+
+
+
+.bd-log {
+        background: #fff;
+         height: 100%;
+            position: fixed;
+               width: 100%;
+                 font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+                    font-size: 81.25%;
+}
+
+
+
+.box a{ 
+         color: #e6232b;
+		         font-weight: 600;
+}
+
+.right-arrow i {
+	
+        color: #e6232b;
+}
+
+
+.pat{
+	    margin-top: 27px;
+}
+
+
+.panel-group {
+       margin-bottom: 9px;
+}
+
+
+.panel-body{
+       font-size: 13px;
+}
+
+.h3, h3 {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: unset;
+}
